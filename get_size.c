@@ -6,7 +6,7 @@
  *
  * Return: the number of digits in n
  */
-int get_size(int n)
+int get_size(const char *format, int *i)
 {
 	int size = 0;
 
